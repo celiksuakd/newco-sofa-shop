@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEWCO Modular Sofas</title>
+<meta name="description" content="Demo shop for NEWCO, a fictional made-to-order modular sofa company. Student project for Operations Management, Politecnico di Milano.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233e566d'/%3E%3Crect x='6' y='12' width='6' height='10' rx='2' fill='%23f8f6f2'/%3E%3Crect x='13' y='12' width='6' height='10' rx='2' fill='%23f8f6f2'/%3E%3Crect x='20' y='12' width='6' height='10' rx='2' fill='%23f8f6f2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div class="demo-banner">Student demo for Operations Management, Politecnico di Milano. NEWCO is fictional and nothing is sold or charged. <a href="#/project">About this project</a></div>
+<header class="site-h">
+  <a class="logo" href="#/" aria-label="NEWCO home">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><rect x="6" y="12" width="6" height="10" rx="2" fill="#f8f6f2"/><rect x="13" y="12" width="6" height="10" rx="2" fill="#f8f6f2"/><rect x="20" y="12" width="6" height="10" rx="2" fill="#f8f6f2"/></svg>
+    <span>NEWCO</span>
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="#/design" data-r="design">Design your sofa</a>
+    <a href="#/fabrics" data-r="fabrics">Fabrics</a>
+    <a href="#/inside" data-r="inside">How we make it</a>
+    <a href="#/advice" data-r="advice">Advice</a>
+    <a href="#/trade" data-r="trade">Trade</a>
+    <a href="#/care" data-r="care">Care &amp; parts</a>
+    <a href="#/track" data-r="track">Track order</a>
+  </nav>
+  <div class="h-r">
+    <button id="ops-toggle" class="ops-btn" aria-pressed="false" title="Show which section of our report each feature comes from">§ Ops view</button>
+    <a class="cart-btn" href="#/cart" aria-label="Cart">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+      <span id="cart-count" hidden>0</span>
+    </a>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-f">
+  <div class="wrap f-cols">
+    <div><a class="logo" href="#/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><rect x="6" y="12" width="6" height="10" rx="2" fill="#1d1f24"/><rect x="13" y="12" width="6" height="10" rx="2" fill="#1d1f24"/><rect x="20" y="12" width="6" height="10" rx="2" fill="#1d1f24"/></svg><span>NEWCO</span></a>
+      <p>Your sofa, designed by you, at your home in two weeks, at a fair price. Made to order in Brianza, Italy.</p></div>
+    <div><h4>Shop</h4><a href="#/design">Design your sofa</a><a href="#/fabrics">Fabrics and samples</a><a href="#/care">Care and parts</a></div>
+    <div><h4>Help</h4><a href="#/track">Track your order</a><a href="#/advice">Design advice and showrooms</a><a href="#/trade">Trade desk</a></div>
+    <div><h4>About</h4><a href="#/inside">How we make it</a><a href="#/project">About this demo</a></div>
+  </div>
+  <div class="wrap f-legal">NEWCO is a fictional company created for Assignment 2, Operations Strategy (Operations Management 2026/27, Politecnico di Milano, Group 6). Prices and dates are illustrations computed from the assumptions in our report.</div>
+</footer>
+
+<aside id="ops-panel" class="ops-panel" hidden></aside>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
