@@ -1,5 +1,6 @@
 import * as C from './data.js';
 import * as M from './model.js';
+import { opscrewPage, opscrewLive } from './opscrew.js';
 
 const { eur, fmtDate } = M;
 const $ = (s, r = document) => r.querySelector(s);
@@ -134,6 +135,8 @@ function renderHeader() {
   $('#cart-count').hidden = !n;
   const route = (location.hash.slice(2).split(/[/?]/)[0]) || '';
   $$('.nav a').forEach((a) => a.classList.toggle('on', a.dataset.r === route));
+  const nav = $('.nav'); const on = $('.nav a.on');
+  if (nav.scrollWidth > nav.clientWidth) nav.scrollLeft = on ? on.offsetLeft - nav.offsetLeft - 12 : 0;
   document.body.classList.toggle('ops', !!S.ops);
   $('#ops-toggle').setAttribute('aria-pressed', S.ops ? 'true' : 'false');
   renderOpsPanel();
@@ -800,6 +803,9 @@ routes.inside = () => `
     <img class="pmap" src="assets/process-map.png" alt="Process map: customer, front office and order engineering, MTO production, MTS production, logistics and suppliers">
   </section>`;
 
+/* ---------- OpsCrew: KPIs and levers from the report ---------- */
+routes.opscrew = () => { const p = pool(); return opscrewPage({ pool: p, status: M.poolStatus(p) }); };
+
 /* ---------- about this project ---------- */
 routes.project = () => {
   const rows = [
@@ -815,11 +821,13 @@ routes.project = () => {
     ['Order tracking timeline', '§2.2, §2.5', 'Day 1 validation, days 2–6 production, day 7 safety, days 8–10 delivery; live status'],
     ['Trade desk and project date check', '§1.3, §2.1', 'Professionals (15%): reliable dates, shade batch control, COM incoming inspection'],
     ['Care and parts', '§1.2, §1.5', 'Spare covers and modules: life-cycle cost, repeat business, fewer returns'],
+    ['<a href="#/opscrew">OpsCrew page</a>: KPIs and levers', '§2.4–2.6', 'Tables 9–13: KPIs of the daily management system, structural, organisational and planning levers, order pool regulation'],
   ];
   return `
   <section class="page-h wrap"><p class="eyebrow">About this demo</p><h1>NEWCO is a student project</h1>
     <p class="lead">This site is a working mock-up of NEWCO’s direct-to-consumer shop, built for Assignment 2 (Operations Strategy), Operations Management 2026/27, Politecnico di Milano, Prof. Alberto Portioli Staudacher. Group 6. NEWCO is fictional. Nothing on this site is sold, charged or sent.</p>
-    <p><button class="btn primary" data-act="ops-on">Turn on Ops view</button> <span class="muted">to see in place which report section each feature comes from.</span></p></section>
+    <p><button class="btn primary" data-act="ops-on">Turn on Ops view</button> <span class="muted">to see in place which report section each feature comes from.</span></p>
+    <p><a class="btn" href="#/opscrew">OpsCrew: KPIs and levers →</a></p></section>
   <section class="wrap">
     <table class="map"><thead><tr><th>Feature on the site</th><th>Report</th><th>Operations choice it shows</th></tr></thead>
     <tbody>${rows.map((r) => `<tr><td>${r[0]}</td><td><b>${r[1]}</b></td><td>${r[2]}</td></tr>`).join('')}</tbody></table>
@@ -868,11 +876,12 @@ document.addEventListener('click', (e) => {
   if (act === 'ops-off') { S.ops = false; save(); renderHeader(); return; }
   if (act === 'ops-min') { S.opsMin = !S.opsMin; save(); renderOpsPanel(); return; }
   if (act === 'ops-on') { S.ops = true; save(); decorateOps(app); renderHeader(); toast('Ops view is on: look for the § tags.'); return; }
-  if (act === 'pool-reset') { S.pool = null; save(); if (app.dataset.route === 'design') { refreshDesign(ui.step === 4); renderOpsPanel(); } else rerenderKeep(); return; }
+  if (act === 'pool-reset') { S.pool = null; save(); if (app.dataset.route === 'design') { refreshDesign(ui.step === 4); renderOpsPanel(); } else if (app.dataset.route === 'opscrew') { renderOpsPanel(); opscrewLive(app, { pool: pool(), status: M.poolStatus(pool()) }); } else rerenderKeep(); return; }
   if (el.tagName === 'INPUT' || el.tagName === 'SELECT') return;
   if (app.dataset.route === 'design') { e.preventDefault(); designAction(act, el); return; }
   switch (act) {
     case 'sample': { const r = el.dataset.v; if (S.samples.includes(r)) { S.samples = S.samples.filter((x) => x !== r); save(); } else addSample(r); rerenderKeep(); break; }
+    case 'jump': { const t = document.getElementById(el.dataset.v); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); break; }
     case 'rm-sample': S.samples = S.samples.filter((x) => x !== el.dataset.v); save(); rerenderKeep(); break;
     case 'fam2': ui.fam = el.dataset.v; rerenderKeep(); break;
     case 'order-samples': toast(`Done. Your ${S.samples.length} samples would arrive by <b>${fmtDate(M.addWorkingDays(new Date(), 2), { weekday: 'long', day: 'numeric', month: 'short' })}</b>. (Demo: nothing shipped.)`); S.samples = []; save(); rerenderKeep(); break;
@@ -892,6 +901,7 @@ document.addEventListener('input', (e) => {
     S.pool = +t.value; save(); renderOpsPanel();
     if (app.dataset.route === 'design') refreshDesign(ui.step === 4);
     else if (['home', 'cart', 'checkout'].includes(app.dataset.route)) rerenderKeep();
+    else if (app.dataset.route === 'opscrew') opscrewLive(app, { pool: pool(), status: M.poolStatus(pool()) });
     return;
   }
   if (t.dataset.act === 'shift') { ui.trackShift = +t.value; t.nextElementSibling.textContent = `+${ui.trackShift} working days`; const id = new URLSearchParams(location.hash.split('?')[1]).get('id'); const o = findOrder(id.toUpperCase()); $('#tl').innerHTML = timeline(o, ui.trackShift); decorateOps($('#tl')); return; }

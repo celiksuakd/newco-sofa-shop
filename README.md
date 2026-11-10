@@ -11,6 +11,7 @@ This is a mock-up of NEWCO's direct-to-consumer website, made for Assignment 2 (
 3. **Check out** with a 2-hour delivery slot, then follow the order on the tracking page. Move the *demo time* slider to watch it go through the workshop.
 4. **Turn on `§ Ops view`** (top right). Purple tags show which section of the report each feature comes from. The ops panel has a slider for the pre-shop order pool (Table 11): push it above 3 days and the promised dates get longer.
 5. **Trade desk.** Ask for a project date with your own fabric (COM): the date starts after the incoming inspection.
+6. **OpsCrew** (purple link in the menu, `#/opscrew`). The operations behind the shop: the 10 KPIs of the daily management system (Table 13), the 20 structural, organisational and planning levers with their effect on the performance objectives (Tables 9, 10 and 12), the order pool rule (Table 11) and the reasons behind the main trade-offs. The order pool card follows the Ops view slider.
 
 ## How the site maps to the report
 
@@ -25,6 +26,7 @@ This is a mock-up of NEWCO's direct-to-consumer website, made for Assignment 2 (
 | Tracking timeline | §2.5 | Live order status from the shop-floor system |
 | Trade desk | §1.3 | Reliable dates, shade batch control, customer's own material |
 | Care and parts | §1.2 | Spare covers and modules: life-cycle cost, repeat business |
+| OpsCrew page | §2.4–2.6, Tables 9–13 | KPIs, structural / organisational / planning levers, order pool regulation |
 
 ## Demo assumptions
 
@@ -42,4 +44,4 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000. The 3D view loads three.js 0.160 from jsDelivr.
 
-Files: `index.html`, `css/style.css`, `js/data.js` (catalogue and rules), `js/model.js` (layout, price, dates), `js/sofa3d.js` (3D viewer), `js/app.js` (pages). The hero photo and process map come from our report.
+Files: `index.html`, `css/style.css`, `js/data.js` (catalogue and rules), `js/model.js` (layout, price, dates), `js/sofa3d.js` (3D viewer), `js/opscrew.js` (KPIs and levers page), `js/app.js` (pages). The hero photo and process map come from our report.
