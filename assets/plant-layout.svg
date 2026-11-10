@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1410 930" width="1410" height="930" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs><marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#1d1f24"/></marker><marker id="ai" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#5a48c2"/></marker></defs>
+<rect width="1410" height="930" fill="#ffffff"/>
+<text x="170" y="36" font-size="24" font-weight="700" fill="#1d1f24" text-anchor="start" font-family="Georgia, serif">NEWCO plant layout, Brianza (Italy)</text>
+<text x="170" y="60" font-size="12.5" font-weight="400" fill="#5f646d" text-anchor="start" >Hybrid layout: functional departments for the 13 padded modules (make-to-stock), one-order flow for covers and upholstery (make-to-order)</text>
+<text x="1240" y="36" font-size="12.5" font-weight="700" fill="#1d1f24" text-anchor="end" >34 people: 27 direct + 7 indirect</text>
+<text x="1240" y="60" font-size="12.5" font-weight="400" fill="#5f646d" text-anchor="end" >1 shift (CNC router: 2 shifts)</text>
+<rect x="170" y="80" width="1070" height="780" rx="4" fill="#ffffff" stroke="#2b2e35" stroke-width="4"/>
+<rect x="186" y="96" width="1038" height="300" rx="8" fill="#edf2f6"/>
+<rect x="186" y="428" width="1038" height="416" rx="8" fill="#f7f1e7"/>
+<text x="200" y="117" font-size="12" fill="#3e566d"><tspan font-weight="700">MAKE-TO-STOCK</tspan> · 13 padded module types · process layout · batches of 25 · ≤ 85%</text>
+<text x="200" y="449" font-size="12" fill="#8a5a33"><tspan font-weight="700">MAKE-TO-ORDER</tspan> · covers and upholstery · one-order flow · saturation ≤ 75% · WIP ≤ 60 orders</text>
+<rect x="164" y="162" width="12" height="52" fill="#57728c"/>
+<rect x="164" y="705" width="12" height="52" fill="#57728c"/>
+<rect x="1234" y="694" width="12" height="52" fill="#57728c"/>
+<rect x="200" y="140" width="130" height="240" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="265.0" y="164" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Raw material</text>
+<text x="265.0" y="182.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >store</text>
+<text x="265.0" y="198.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" ></text>
+<text x="265.0" y="215.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >plywood, spruce</text>
+<text x="265.0" y="231.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >foam blocks</text>
+<text x="265.0" y="248.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >webbing, fibre</text>
+<text x="265.0" y="264.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >legs</text>
+<text x="265.0" y="281.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" ></text>
+<text x="265.0" y="297.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >restocked by</text>
+<text x="265.0" y="314.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >suppliers (VMI)</text>
+<rect x="370" y="140" width="160" height="95" rx="7" fill="#dce6f0" stroke="#57728c" stroke-width="1.6" />
+<text x="450.0" y="163" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >CNC router</text>
+<text x="450.0" y="181.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >1 machine · 2 shifts</text>
+<text x="450.0" y="197.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >2 operators · 75%</text>
+<text x="450.0" y="214.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >frame parts</text>
+<rect x="570" y="140" width="220" height="95" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" />
+<text x="680.0" y="163" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Frame assembly</text>
+<text x="680.0" y="181.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >4 jigs · 4 people · 82%</text>
+<rect x="597" y="198" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="641" y="198" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="685" y="198" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="729" y="198" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="370" y="285" width="160" height="95" rx="7" fill="#dce6f0" stroke="#57728c" stroke-width="1.6" />
+<text x="450.0" y="308" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Foam CNC cutter</text>
+<text x="450.0" y="326.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >1 machine · 1 person</text>
+<text x="450.0" y="342.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >75%</text>
+<text x="450.0" y="359.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >foam bodies</text>
+<rect x="570" y="285" width="220" height="95" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" />
+<text x="680.0" y="308" font-size="13.5" font-weight="700" fill="#1d1f24" text-anchor="middle" >Foam gluing + wrapping</text>
+<text x="680.0" y="326.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >2 stations · 2 people · 81%</text>
+<rect x="597" y="343" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="641" y="343" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<text x="686" y="359" font-size="10.5" font-weight="400" fill="#5f646d" text-anchor="start" >foam + fibre on frame</text>
+<path d="M330 187 H368" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M330 332 H368" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M530 187 H568" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M530 332 H568" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M680 235 V283" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<text x="688" y="263" font-size="10.5" font-weight="400" fill="#1d1f24" text-anchor="start" font-style="italic">frames</text>
+<path d="M790 332 H838" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<rect x="840" y="140" width="370" height="240" rx="7" fill="#fff8e6" stroke="#c49a3c" stroke-width="1.8"/>
+<text x="1025" y="163" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >DECOUPLING STOCK</text>
+<text x="1025" y="181" font-size="11" font-weight="400" fill="#5f646d" text-anchor="middle" >13 padded module types (frame + webbing + foam, no cover)</text>
+<text x="1025" y="197" font-size="11" font-weight="400" fill="#5f646d" text-anchor="middle" >≈ 220 modules ≈ 4 days of use · up to ≈ 350 after the summer build-up</text>
+<rect x="860.0" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="860.0" y="258.8" width="22" height="109.2" rx="3" fill="#efd9a0"/>
+<text x="875.0" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 875.0 362)">S80-95</text>
+<rect x="885.4" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="885.4" y="290.0" width="22" height="78.0" rx="3" fill="#efd9a0"/>
+<text x="900.4" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 900.4 362)">S80-105</text>
+<rect x="910.8" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="910.8" y="235.4" width="22" height="132.6" rx="3" fill="#efd9a0"/>
+<text x="925.8" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 925.8 362)">S100-95</text>
+<rect x="936.2" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="936.2" y="274.4" width="22" height="93.6" rx="3" fill="#efd9a0"/>
+<text x="951.2" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 951.2 362)">S100-105</text>
+<rect x="961.6" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="961.6" y="282.2" width="22" height="85.8" rx="3" fill="#efd9a0"/>
+<text x="976.6" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 976.6 362)">CRN-95</text>
+<rect x="987.0" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="987.0" y="305.6" width="22" height="62.4" rx="3" fill="#efd9a0"/>
+<text x="1002.0" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1002.0 362)">CRN-105</text>
+<rect x="1012.4" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1012.4" y="274.4" width="22" height="93.6" rx="3" fill="#efd9a0"/>
+<text x="1027.4" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1027.4 362)">CHL-95</text>
+<rect x="1037.8" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1037.8" y="313.4" width="22" height="54.6" rx="3" fill="#efd9a0"/>
+<text x="1052.8" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1052.8 362)">CHL-105</text>
+<rect x="1063.2" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1063.2" y="290.0" width="22" height="78.0" rx="3" fill="#efd9a0"/>
+<text x="1078.2" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1078.2 362)">OTT-95</text>
+<rect x="1088.6" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1088.6" y="321.2" width="22" height="46.8" rx="3" fill="#efd9a0"/>
+<text x="1103.6" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1103.6 362)">OTT-105</text>
+<rect x="1114.0" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1114.0" y="251.0" width="22" height="117.0" rx="3" fill="#efd9a0"/>
+<text x="1129.0" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1129.0 362)">ARM-SL</text>
+<rect x="1139.4" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1139.4" y="243.2" width="22" height="124.8" rx="3" fill="#efd9a0"/>
+<text x="1154.4" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1154.4 362)">ARM-SQ</text>
+<rect x="1164.8" y="212" width="22" height="156" rx="3" fill="#ffffff" stroke="#d9c38c" stroke-width="1"/>
+<rect x="1164.8" y="297.8" width="22" height="70.2" rx="3" fill="#efd9a0"/>
+<text x="1179.8" y="362" font-size="9.5" font-weight="600" fill="#5b4a1e" transform="rotate(-90 1179.8 362)">ARM-RD</text>
+<path d="M1025 140 V128 H450 V138" fill="none" stroke="#5a48c2" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ai)"/>
+<text x="1015" y="123" font-size="10.5" font-weight="400" fill="#5a48c2" text-anchor="end" font-style="italic">Kanban: reorder point ≈ 13 per type, Q = 25</text>
+<path d="M186 412 H1224" stroke="#c4643f" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="440" y="401" width="330" height="22" rx="11" fill="#ffffff" stroke="#c4643f" stroke-width="1.5"/>
+<text x="605" y="416" font-size="11.5" font-weight="700" fill="#c4643f" text-anchor="middle" >Decoupling point: the customer order enters here</text>
+<rect x="200" y="462" width="220" height="133" rx="7" fill="#f4f2fd" stroke="#9a8fe0" stroke-width="1.6" />
+<text x="310.0" y="484" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Order office</text>
+<text x="310.0" y="502.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >order engineer (57%), planner,</text>
+<text x="310.0" y="517.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >operations manager</text>
+<text x="310.0" y="533.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >pre-shop order pool: 1–3 days</text>
+<text x="310.0" y="548.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >orders confirmed by 14:00</text>
+<text x="310.0" y="564.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >released next morning</text>
+<rect x="450" y="462" width="150" height="60" rx="7" fill="#f4f2fd" stroke="#9a8fe0" stroke-width="1.6" />
+<text x="525.0" y="484" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >KPI board</text>
+<text x="525.0" y="502.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >daily meeting</text>
+<rect x="630" y="462" width="170" height="60" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" />
+<text x="715.0" y="484" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Maintenance</text>
+<text x="715.0" y="502.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >preventive, on Saturdays</text>
+<rect x="200" y="650" width="130" height="180" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="265.0" y="674" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Fabric store</text>
+<text x="265.0" y="692.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >top 30 fabrics</text>
+<text x="265.0" y="707.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >(≈ 70% of orders)</text>
+<text x="265.0" y="723.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >others from mills</text>
+<text x="265.0" y="738.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >in 48 h</text>
+<text x="265.0" y="754.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" ></text>
+<text x="265.0" y="769.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >inspection on</text>
+<text x="265.0" y="785.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >arrival (shade)</text>
+<rect x="370" y="660" width="130" height="120" rx="7" fill="#dce6f0" stroke="#57728c" stroke-width="1.6" />
+<text x="435.0" y="683" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Fabric cutter</text>
+<text x="435.0" y="701.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >automatic, 1 machine</text>
+<text x="435.0" y="717.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >1 operator</text>
+<text x="435.0" y="734.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >83% → 72%</text>
+<text x="435.0" y="750.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >setup 8 → 4 min</text>
+<rect x="560" y="660" width="230" height="120" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" />
+<text x="675.0" y="683" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Sewing + embroidery</text>
+<text x="675.0" y="701.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >7 stations · 7 people · 75%</text>
+<rect x="578" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="608" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="638" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="668" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="698" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="728" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="758" y="733" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="850" y="660" width="170" height="120" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" />
+<text x="935.0" y="683" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Upholstery</text>
+<text x="935.0" y="701.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >5 stations · 5 people</text>
+<text x="935.0" y="717.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >67%</text>
+<rect x="862" y="740" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="893" y="740" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="924" y="740" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="955" y="740" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="986" y="740" width="22" height="22" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<rect x="1060" y="660" width="150" height="120" rx="7" fill="#ffffff" stroke="#8a96a3" stroke-width="1.6" />
+<text x="1135.0" y="683" font-size="13.5" font-weight="700" fill="#1d1f24" text-anchor="middle" >Final QC + packing</text>
+<text x="1135.0" y="701.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >2 stations · 2 people</text>
+<text x="1135.0" y="717.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >55%</text>
+<text x="1135.0" y="734.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >checklist,</text>
+<text x="1135.0" y="750.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >packed flat</text>
+<path d="M330 720 H368" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M500 690 H558" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M518 723 L542 723 L530 703 Z" fill="#f2c14e" stroke="#b08a22" stroke-width="1.2"/>
+<text x="530" y="718" font-size="10" font-weight="700" fill="#1d1f24" text-anchor="middle" >I</text>
+<text x="530" y="740" font-size="10" font-weight="400" fill="#5f646d" text-anchor="middle" >≤ ½ day</text>
+<path d="M790 690 H848" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M808 723 L832 723 L820 703 Z" fill="#f2c14e" stroke="#b08a22" stroke-width="1.2"/>
+<text x="820" y="718" font-size="10" font-weight="700" fill="#1d1f24" text-anchor="middle" >I</text>
+<text x="820" y="740" font-size="10" font-weight="400" fill="#5f646d" text-anchor="middle" >≤ ½ day</text>
+<path d="M1020 720 H1058" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M1210 720 H1260" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<path d="M935 380 V658" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<text x="944" y="560" font-size="10.5" font-weight="400" fill="#1d1f24" text-anchor="start" font-style="italic">padded modules picked</text>
+<text x="944" y="574" font-size="10.5" font-weight="400" fill="#1d1f24" text-anchor="start" font-style="italic">for each order (day 2)</text>
+<path d="M435 595 V658" fill="none" stroke="#5a48c2" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ai)"/>
+<text x="443" y="630" font-size="10.5" font-weight="400" fill="#5a48c2" text-anchor="start" font-style="italic">cutting file + bill of modules</text>
+<rect x="640" y="604" width="250" height="24" rx="12" fill="#ffffff" stroke="#a89a85" stroke-width="1.2"/>
+<text x="765" y="620" font-size="11" font-weight="600" fill="#1d1f24" text-anchor="middle" >3 floaters move to the bottleneck of the day</text>
+<rect x="401" y="794" width="68" height="20" rx="10" fill="#3e566d"/>
+<text x="435" y="808" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" >Day 2</text>
+<rect x="641" y="794" width="68" height="20" rx="10" fill="#3e566d"/>
+<text x="675" y="808" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" >Days 3–4</text>
+<rect x="901" y="794" width="68" height="20" rx="10" fill="#3e566d"/>
+<text x="935" y="808" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" >Day 5</text>
+<rect x="1101" y="794" width="68" height="20" rx="10" fill="#3e566d"/>
+<text x="1135" y="808" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" >Day 6</text>
+<text x="820" y="834" font-size="11" font-weight="400" fill="#5f646d" text-anchor="middle" >Production lead time: 5 working days (days 2–6). Day 1: order check. Day 7: safety day.</text>
+<rect x="20" y="140" width="130" height="95" rx="7" fill="#ffffff" stroke="#b8bcc4" stroke-width="1.6" />
+<text x="85.0" y="164" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Suppliers</text>
+<text x="85.0" y="182.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >plywood, spruce</text>
+<text x="85.0" y="198.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >foam blocks (VMI)</text>
+<text x="85.0" y="215.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >legs, webbing</text>
+<path d="M150 187 H198" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<rect x="20" y="462" width="130" height="118" rx="7" fill="#ffffff" stroke="#b8bcc4" stroke-width="1.6" />
+<text x="85.0" y="486" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Customer</text>
+<text x="85.0" y="504.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >3D configurator,</text>
+<text x="85.0" y="520.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >showrooms,</text>
+<text x="85.0" y="537.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >trade desk</text>
+<text x="85.0" y="553.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >→ ERP</text>
+<path d="M150 528 H198" fill="none" stroke="#5a48c2" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ai)"/>
+<rect x="20" y="670" width="130" height="120" rx="7" fill="#ffffff" stroke="#b8bcc4" stroke-width="1.6" />
+<text x="85.0" y="696" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Fabric mills</text>
+<text x="85.0" y="714.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >Como and Prato</text>
+<text x="85.0" y="730.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >textile districts</text>
+<text x="85.0" y="747.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >delivery in 48 h</text>
+<path d="M150 730 H198" fill="none" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<rect x="1262" y="650" width="130" height="140" rx="7" fill="#ffffff" stroke="#b8bcc4" stroke-width="1.6" />
+<text x="1327.0" y="674" font-size="14" font-weight="700" fill="#1d1f24" text-anchor="middle" >Delivery</text>
+<text x="1327.0" y="692.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >white-glove partner</text>
+<text x="1327.0" y="708.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >1–3 days by truck</text>
+<text x="1327.0" y="725.0" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >assembly at home</text>
+<text x="1327.0" y="741.5" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="middle" >days 8–10</text>
+<path d="M170 890 H210" stroke="#1d1f24" stroke-width="2.2" marker-end="url(#am)"/>
+<text x="218" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >material flow</text>
+<path d="M320 890 H360" stroke="#5a48c2" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ai)"/>
+<text x="368" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >information flow</text>
+<path d="M480 899 L504 899 L492 879 Z" fill="#f2c14e" stroke="#b08a22" stroke-width="1.2"/>
+<text x="492" y="894" font-size="10" font-weight="700" fill="#1d1f24" text-anchor="middle" >I</text>
+<text x="510" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >buffer between stations</text>
+<rect x="666" y="880" width="30" height="20" rx="4" fill="#dce6f0" stroke="#57728c" stroke-width="1.5"/>
+<text x="704" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >CNC machine</text>
+<rect x="806" y="880" width="30" height="20" rx="4" fill="#ffffff" stroke="#8a96a3" stroke-width="1.5"/>
+<text x="844" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >manual stations</text>
+<rect x="958" y="881" width="18" height="18" rx="3" fill="#f3ede3" stroke="#a89a85" stroke-width="1.2"/>
+<text x="984" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >1 workstation</text>
+<rect x="1086" y="881" width="12" height="18" fill="#57728c"/>
+<text x="1106" y="894" font-size="11.5" font-weight="400" fill="#1d1f24" text-anchor="start" >dock</text>
+<text x="1392" y="894" font-size="11.5" font-weight="400" fill="#5f646d" text-anchor="end" >% = saturation (Table 7)</text>
+</svg>

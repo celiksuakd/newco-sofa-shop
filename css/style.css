@@ -349,6 +349,10 @@ a.card:hover { box-shadow: var(--shadow); }
 .days li:last-child { background: var(--slate-d); border-color: var(--slate-d); color: #dfe7ee; }
 .days li:last-child b { color: #fff; }
 .pmap { background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: 12px; margin: 10px 0 40px; width: 100%; }
+.layout-fig { margin: 0 0 30px; background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: 12px; }
+.layout-scroll { overflow-x: auto; }
+.layout-scroll img { width: 100%; height: auto; min-width: 760px; }
+.layout-fig figcaption { font-size: .86rem; color: var(--muted); padding: 10px 4px 2px; }
 .ops-only { display: none; }
 body.ops .ops-only { display: block; }
 .map { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; font-size: .92rem; margin-bottom: 36px; }

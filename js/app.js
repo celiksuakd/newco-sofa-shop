@@ -788,6 +788,13 @@ routes.inside = () => `
       <li><b>Days 8–10</b><span>Delivered and assembled at home</span></li>
     </ol>
   </section>
+  <section class="wrap">
+    <div class="sec-h"><h2>Inside our workshop</h2><p>One plant in Brianza: base modules made to stock at the top, your covers made to order at the bottom.</p></div>
+    <figure class="layout-fig" ${ops('§2.4', 'Plant layout', 'Hybrid layout: functional departments upstream for the 13 module types (batches of 25), product flow downstream where each order moves as a single kit through cutting, sewing, upholstery and packing, with buffers of at most half a day. Stations and saturations from Tables 7 and 8.')}>
+      <div class="layout-scroll"><img src="assets/plant-layout.svg" alt="NEWCO plant layout: make-to-stock area with raw material store, CNC router, frame assembly, foam CNC cutter and foam gluing feeding a decoupling stock of 13 module types; make-to-order flow with fabric store, fabric cutter, sewing, upholstery, final QC and packing, shipping dock; order office, KPI board and maintenance" width="1410" height="930" loading="lazy"></div>
+      <figcaption>34 people: 27 make the sofas, 7 plan, check quality, run the warehouse and give design advice. <a href="assets/plant-layout.svg" target="_blank" rel="noopener">Open full size</a></figcaption>
+    </figure>
+  </section>
   <section class="wrap ops-only">
     <div class="sec-h"><h2>Process map (from our report, Table 6)</h2></div>
     <img class="pmap" src="assets/process-map.png" alt="Process map: customer, front office and order engineering, MTO production, MTS production, logistics and suppliers">
