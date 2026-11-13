@@ -12,6 +12,7 @@ This is a mock-up of NEWCO's direct-to-consumer website, made for Assignment 2 (
 4. **Turn on `§ Ops view`** (top right). Purple tags show which section of the report each feature comes from. The ops panel has a slider for the pre-shop order pool (Table 11): push it above 3 days and the promised dates get longer.
 5. **Trade desk.** Ask for a project date with your own fabric (COM): the date starts after the incoming inspection.
 6. **OpsCrew** (purple link in the menu, `#/opscrew`). The operations behind the shop: the 10 KPIs of the daily management system (Table 13), the 20 structural, organisational and planning levers with their effect on the performance objectives (Tables 9, 10 and 12), the order pool rule (Table 11) and the reasons behind the main trade-offs. The order pool card follows the Ops view slider.
+7. **Numbers** (`#/numbers`). Every key figure of the report on one page: working hours, capacity and saturation per stage with the limits, the highest and lowest months, the KPI targets, the 10-day lead time against competitors, the module stock, the staffing and the market sizing. Figures marked *calc.* are worked out from the report's tables.
 
 ## How the site maps to the report
 
@@ -27,6 +28,7 @@ This is a mock-up of NEWCO's direct-to-consumer website, made for Assignment 2 (
 | Trade desk | §1.3 | Reliable dates, shade batch control, customer's own material |
 | Care and parts | §1.2 | Spare covers and modules: life-cycle cost, repeat business |
 | OpsCrew page | §2.4–2.6, Tables 9–13 | KPIs, structural / organisational / planning levers, order pool regulation |
+| Numbers page | §1.4–2.6, Tables 2–8, 11, 13 | Key figures: hours, capacity limits, seasonality, KPI targets, lead time, stock, people, market |
 
 ## Demo assumptions
 
@@ -44,4 +46,4 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000. The 3D view loads three.js 0.160 from jsDelivr.
 
-Files: `index.html`, `css/style.css`, `js/data.js` (catalogue and rules), `js/model.js` (layout, price, dates), `js/sofa3d.js` (3D viewer), `js/opscrew.js` (KPIs and levers page), `js/app.js` (pages). The hero photo and process map come from our report.
+Files: `index.html`, `css/style.css`, `js/data.js` (catalogue and rules), `js/model.js` (layout, price, dates), `js/sofa3d.js` (3D viewer), `js/opscrew.js` (KPIs and levers page), `js/numbers.js` (key figures page), `js/app.js` (pages). The hero photo and process map come from our report.

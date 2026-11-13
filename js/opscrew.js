@@ -150,7 +150,7 @@ export function opscrewPage({ pool, status }) {
   <section class="page-h wrap oc-head">
     <p class="eyebrow oc-eyebrow">OpsCrew · Group 6 · Behind the shop</p>
     <h1>The operations behind NEWCO</h1>
-    <p class="lead">The KPIs we track and the 20 decision levers we chose, from our Assignment 2 report (§2.4–2.6, Tables 9–13). This part of the site is for the course, not for customers.</p>
+    <p class="lead">The KPIs we track and the 20 decision levers we chose, from our Assignment 2 report (§2.4–2.6, Tables 9–13). This part of the site is for the course, not for customers. All the key figures are on the <a href="#/numbers">Numbers</a> page.</p>
     <div class="oc-jump" role="navigation" aria-label="On this page">${nav.map(([id, t]) => `<button class="chip" data-act="jump" data-v="${id}">${esc(t)}</button>`).join('')}</div>
   </section>
 

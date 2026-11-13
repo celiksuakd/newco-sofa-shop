@@ -1,6 +1,7 @@
 import * as C from './data.js';
 import * as M from './model.js';
 import { opscrewPage, opscrewLive } from './opscrew.js';
+import { numbersPage } from './numbers.js';
 
 const { eur, fmtDate } = M;
 const $ = (s, r = document) => r.querySelector(s);
@@ -806,6 +807,9 @@ routes.inside = () => `
 /* ---------- OpsCrew: KPIs and levers from the report ---------- */
 routes.opscrew = () => { const p = pool(); return opscrewPage({ pool: p, status: M.poolStatus(p) }); };
 
+/* ---------- Numbers: key figures from the report ---------- */
+routes.numbers = () => numbersPage();
+
 /* ---------- about this project ---------- */
 routes.project = () => {
   const rows = [
@@ -822,12 +826,13 @@ routes.project = () => {
     ['Trade desk and project date check', '§1.3, §2.1', 'Professionals (15%): reliable dates, shade batch control, COM incoming inspection'],
     ['Care and parts', '§1.2, §1.5', 'Spare covers and modules: life-cycle cost, repeat business, fewer returns'],
     ['<a href="#/opscrew">OpsCrew page</a>: KPIs and levers', '§2.4–2.6', 'Tables 9–13: KPIs of the daily management system, structural, organisational and planning levers, order pool regulation'],
+    ['<a href="#/numbers">Numbers page</a>', '§1.4–2.6', 'Key figures: hours, capacity per stage and limits, highest and lowest months, KPI targets, lead time, stock, people, market'],
   ];
   return `
   <section class="page-h wrap"><p class="eyebrow">About this demo</p><h1>NEWCO is a student project</h1>
     <p class="lead">This site is a working mock-up of NEWCO’s direct-to-consumer shop, built for Assignment 2 (Operations Strategy), Operations Management 2026/27, Politecnico di Milano, Prof. Alberto Portioli Staudacher. Group 6. NEWCO is fictional. Nothing on this site is sold, charged or sent.</p>
     <p><button class="btn primary" data-act="ops-on">Turn on Ops view</button> <span class="muted">to see in place which report section each feature comes from.</span></p>
-    <p><a class="btn" href="#/opscrew">OpsCrew: KPIs and levers →</a></p></section>
+    <p><a class="btn" href="#/opscrew">OpsCrew: KPIs and levers →</a> <a class="btn" href="#/numbers">NEWCO in numbers →</a></p></section>
   <section class="wrap">
     <table class="map"><thead><tr><th>Feature on the site</th><th>Report</th><th>Operations choice it shows</th></tr></thead>
     <tbody>${rows.map((r) => `<tr><td>${r[0]}</td><td><b>${r[1]}</b></td><td>${r[2]}</td></tr>`).join('')}</tbody></table>
